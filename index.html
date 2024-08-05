@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        #main {
+            justify-content: center;
+            text-align: center;
+            margin-top: 180px;
+        }
+        #subt {
+            background-color: black;
+            color: #fff;
+            font-size: 20px;
+            margin-top: 20px;
+            padding: 11px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+    <div id="main">
+        <div id="sub-main">
+            <h1>Number Guessing Game</h1>
+            <form>
+                <label for="">Guess A Number</label><br>
+                <input type="text" id="number"><br>
+                <input type="submit" id="subt" value="Submit Guess">
+            </form>
+            <div id="result">
+                <p>Previous Guess : <span class="guess"></span></p>
+                <p>Attempt Left : <span class="guess-left">10</span></p>
+                <p class="last"></p>
+            </div>
+        </div>
+    </div>
+    <script src="body.js"></script>
+</body>
+
+</html>
